@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "66ca7343889332c2b8ecca11c251430c",
+    "content-hash": "c126dd2ef16449ececf8521ecff4197c",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -744,6 +744,62 @@
                 "storage"
             ],
             "time": "2018-11-23T23:41:29+00:00"
+        },
+        {
+            "name": "lookitsatravis/listify",
+            "version": "1.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lookitsatravis/listify.git",
+                "reference": "0db40097ef764c0bf4b00c82d3f04c8be466932b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lookitsatravis/listify/zipball/0db40097ef764c0bf4b00c82d3f04c8be466932b",
+                "reference": "0db40097ef764c0bf4b00c82d3f04c8be466932b",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "~5.0",
+                "illuminate/database": "~5.0",
+                "illuminate/events": "~5.0",
+                "illuminate/support": "~5.0",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0",
+                "satooshi/php-coveralls": "dev-master",
+                "way/phpunit-wrappers": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Lookitsatravis\\Listify": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Travis Vignon",
+                    "email": "travis@lookitsatravis.com",
+                    "homepage": "http://lookitsatravis.com"
+                }
+            ],
+            "description": "Turn any Eloquent model into a list! http://lookitsatravis.github.io/listify",
+            "keywords": [
+                "acts_as_list",
+                "eloquent",
+                "laravel",
+                "list",
+                "model",
+                "order",
+                "position",
+                "rails"
+            ],
+            "time": "2017-02-09T14:19:07+00:00"
         },
         {
             "name": "monolog/monolog",

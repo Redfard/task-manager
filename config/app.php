@@ -166,6 +166,8 @@ return [
          * Package Service Providers...
          */
 
+        Lookitsatravis\Listify\ListifyServiceProvider::class,
+
         /*
          * Application Service Providers...
          */

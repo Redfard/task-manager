@@ -1,12 +1,14 @@
 
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito');
+@import '~font-awesome/scss/font-awesome.scss';
 
 // Variables
 @import 'variables';
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+@import '~pc-bootstrap4-datetimepicker/src/sass/bootstrap-datetimepicker-build.scss';
 
 .navbar-laravel {
   background-color: #fff;
